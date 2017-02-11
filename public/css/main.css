@@ -1,0 +1,116 @@
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+.navbar-inverse {
+	line-height: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #4a5d69;
+}
+ .navbar-nav > a {
+ 	color: white;
+ }
+
+.navbar-inverse .navbar-brand {
+ 	color: #fff;
+ }
+
+.navbar-inverse .navbar-nav>li>a {
+ 	color: #B5B5B5;
+ }
+
+ .navbar-inverse .navbar-nav>li>a:hover {
+ 	background-color: #617785;
+ }
+
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #D6D6D6;
+}
+#headerimg {
+	background: url('/img/office.jpg') no-repeat center top;
+	min-height: 500px;
+	background-size: cover;
+	background-position: center center;
+	text-align: center;
+}
+
+#headerimg h1 {
+	padding-top: 150px;
+	font-size: 80px;
+	color: #fff;
+}
+
+#headerimg h2 {
+	font-size: 50px;
+	color: #fff;
+}
+
+#three_row {
+	background: #E5E5E5;
+	padding-top: 30px;
+	font-family: 'Muli', sans-serif;
+	font-size: 15px;
+	text-align: center;
+}
+
+#three_row h1 {
+	text-align: center;
+	font-family: 'Muli', sans-serif;
+}
+
+.form-container {
+	padding-top: 100px;
+}
+
+.show-start {
+	padding-top: 100px;
+}
+
+.col-pad {
+	padding-top: 20px;
+	min-height: 450px;
+	max-height: 450px;
+}
+
+.student-start {
+	padding-top: 80px;
+}
+
+.student-title {
+	padding-bottom: 10px;
+}
+
+.student-image {
+	opacity: .7;
+	transition: opacity 0.3s;
+  	-webkit-transition: opacity .25s ease-in-out;
+}
+
+.student-image:hover {
+	opacity: 1;
+}
+
+.award-button {
+	margin-top: 20px;
+	background: #4A5D69;
+}
+
+.award-button:hover {
+	background: #617785;
+}
+
+.student-row-margin {
+	margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+	#form-container {
+		padding-top: 300px;
+	}
+
+	#headerimg {
+		padding-top: 200px;
+	}
+}
