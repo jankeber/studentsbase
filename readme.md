@@ -1,3 +1,11 @@
+<p align="center">StudentsBase</p>
+
+StudentsBase is a simple web application where you can create, read, update, delete students and student awards records. It was made for fun and for practice.
+
+Notes: 
+-- Vendor folder and .env file are missing so you need to add them by yourself.
+-- This project uses Intervention image manipulation library which is installed in vendor folder, but since vendor folder is not included here you need to install it by yourself. You can find everything you need here: http://image.intervention.io
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
